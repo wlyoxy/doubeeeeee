@@ -1,0 +1,160 @@
+*,body,html{
+  margin:0;
+  padding:0;
+}
+/* 第一部分的外框 */
+#anony-nav-banner{
+  background-color: #EDF4EC;
+  margin-bottom:30px;
+  /* margin-top:-10px; */
+  /* clear:both; *//*去掉浮动*/
+  overflow: hidden;/*隐藏溢出部分，有去掉浮动的效果*/
+  /*加上overflow：hidden可以去掉doubanlogo的浮动，为什么会有浮动？？？*/
+}
+/* 第一部分的logo */
+#douban-logo{
+  width: 102px;
+  height:20px;
+  margin:7px 13px;
+  /* padding:7px 13px; */
+  background: url(https://img3.doubanio.com/f/sns/0f9e2dbca60b52f595ddbc02073cb4bb879ed1c9/pics/nav/logo_db@1x.png) no-repeat;
+  /* background-image: url(https://img3.doubanio.com/f/sns/0f9e2dbca60b52f595ddbc02073cb4bb879ed1c9/pics/nav/logo_db@1x.png); */
+  background-size: contain;
+}
+/* 第二部分 */
+#anony-nav{
+  width: 1080px;
+  /* height: 0; */
+  margin: 0 auto 25px;
+}
+/* 第二部分搜索框前面的豆瓣网 */
+.site-name{
+  display: inline-block;
+  line-height: 24px;
+  height: 24px;
+  width: 73px;
+  margin-top: 4px;
+  margin-right:24px;
+  background-image: url(https://img3.doubanio.com/f/sns/714b8751a533ef592bea5cd4603dbb9e713ded61/pics/sns/sitename.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* 第二部分搜索框 */
+.anony-srh{
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: middle;
+  width:270px;
+  height: 30px;
+  border: 1px solid #c3c3c3;
+}
+.anony-srh > form{
+  border: 0;
+}
+/* 搜索前的灰色 */
+.inp{
+  display: block;/*这里为什么是block？不是两个要在同一行吗*/
+  height: 30px;
+  overflow: hidden;
+}
+
+.inp > input{
+  width: 240px;
+  border: none;
+  font-size:13px;
+  height: 20px;
+  padding: 5px;
+}
+/* 搜索符号 */
+.bn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  background: url(https://img3.doubanio.com/f/sns/f71f15922ebd7c0ff0ea0e7a25577529efd8981a/pics/icon/bn_srh_1.png) 50% 50% no-repeat;
+}
+/* 将搜索变成放大镜 */
+.bn > input{
+  border: none;
+  background: transparent;
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+  color: transparent;
+  cursor: pointer;
+}
+/* 第二部分的分则链接 */
+.anony-nav-links{
+  float: right;
+  margin-top: 6px;
+}
+.anony-nav-links > ul > li{
+  display: inline-block;
+  zoom: 1;
+  margin: 0 14px 0 0px;
+}
+.anony-nav-links > ul > li > a{
+  display: inline-block;
+  zoom: 1;
+  width: 40px;
+  height: 20px;
+  overflow: hidden;
+  margin: 0;
+  line-height: 20em;
+  outline: none;
+  vertical-align: middle;
+  background: transparent url(https://img3.doubanio.com/f/sns/82c3a65bdec3e60331a8dd5805bb842e76ac0c04/pics/sns/anony_home/anony_nav_logo.png) no-repeat 100% 100%;
+  background-size: cover;
+}
+.anony-nav-links > ul > li > .link-book{
+  width: 42px;
+  background-position: 0 0;
+}
+.anony-nav-links > ul > li > .link-movie{
+  width: 42px;
+  background-position: -60px 0;
+}
+.anony-nav-links > ul > li > .link-music{
+  width: 42px;
+  background-position: -124px 0;
+}
+.anony-nav-links > ul > li > .link-events{
+  width: 42px;
+  background-position: -307px 0;
+}
+.anony-nav-links > ul > li > .link-group{
+  width: 42px;
+  background-position: -185px 0;
+}
+.anony-nav-links > ul > li > .link-read{
+  margin-bottom: 1px;
+  background:transparent url(https://img3.doubanio.com/f/sns/6e5124455979380decd0b01536d8792caab6b9b8/pics/sns/anony_home/ic_read_home_nav@2x.png)no-repeat 100% 100%;
+  background-size: cover;
+  
+}
+.anony-nav-links > ul > li > .link-fm{
+  width: 42px;
+  background-position: -244px 0;
+}
+.anony-nav-links > ul > li > .link-shijian{
+  margin-bottom: 1px;
+  background:transparent url(https://img3.doubanio.com/f/sns/74745beec69da53ac959a9bcc4e1e66f852ba2e8/pics/sns/anony_home/ic_shijian_home_nav@2x.png)no-repeat 100% 100%;
+  background-size: cover;
+}
+.anony-nav-links > ul > li > .link-market{
+  width: 42px;
+  background-position: -433px 0;
+}
+/* 第三部分 */
+.anony-reg-new{
+  
+  background-image: url(https://img9.doubanio.com/view/puppy_image/raw/public/1771365ca98ig9er706.jpg);
+}
+li{
+  list-style: none;
+}

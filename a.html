@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First West Page</title>
+  <style>
+    img{
+      width: 100px;
+      margin-right:20px;
+      border-radius: 50px;
+      float: left;
+    }
+    .indu{
+      font-weight: bold;
+
+    }
+    
+    body#god div.dad span.son {width: 200px;
+    background-color: black;}
+    body#god span#test {width: 250px;
+    background-color: aqua;}
+  .icon1 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 12px;
+  height: 10px;
+  padding: 2px 0;
+  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  background: currentColor; /*注意如果此处背景颜色属性用缩写的话，需要放到其他背景属性的前面，否则会覆盖前面的属性值（此处为background-clip）为默认值*/
+  background-clip: content-box;
+}   
+/*双层圆点*/
+.icon2 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  padding: 2px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  background-color: currentColor;
+  background-clip: content-box;
+}
+.in{
+  line-height: 30px;
+}
+.mn{
+  font-size: 30px;
+  vertical-align: middle;
+}
+.container{
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-color: rgba(0, 0, 0, .15);
+  text-align: center;
+  font-size: 0;
+  white-space: nowrap;
+  overflow: auto;
+}
+.container:after{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.dialog{
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 14px;
+  white-space: normal;
+  background: white;
+}
+
+
+
+  </style>
+  <!-- <link rel="stylesheet" type="text/css" href="a.css"> -->
+</head>
+<body id="god">
+  
+  <img src="images/bc-1.png" alt="images of baichuan">
+  <p class="indu">A cartoon character of Qiqiao taxi</p>
+  <p>@ baichuan</p>
+  <div class="dad">
+    <span id="test" class="son">helllllls</span>
+  </div>
+  <div class="icon1"></div>
+  <div class="icon2"></div>
+  <div class="in">
+    <span class="mn">文本x</span>
+  </div>
+  <div class="container">
+    <div class="dialog">自适应弹出层</div>
+  </div>
+  
+</body>
+</html>
