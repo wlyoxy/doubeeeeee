@@ -1,0 +1,55 @@
+.anony-time {
+  font-size: 24px;
+  padding: 40px 0 20px;
+  margin: 0 0 30px;
+  background-color: #f7f7f7;
+}
+.anony-time .wrapper {
+  width: 950px;
+  margin: 0 auto;
+}
+.anony-time .wrapper .sidenav {
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.anony-time .wrapper .sidenav .timeTitle {
+  margin-bottom: 12px;
+}
+.anony-time .wrapper .sidenav .timeTitle a {
+  font-size: 24px;
+  color: #494949;
+}
+.anony-time .wrapper .main {
+  display: inline-block;
+  width: 850px;
+}
+.anony-time .wrapper .main .section-title {
+  color: #072;
+  font-size: 15px;
+}
+.anony-time .wrapper .main .timelist li {
+  display: inline-block;
+  width: 100px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  vertical-align: top;
+}
+.anony-time .wrapper .main .timelist li .cover,
+.anony-time .wrapper .main .timelist li .time-audio,
+.anony-time .wrapper .main .timelist li .new {
+  display: block;
+  margin-bottom: 10px;
+}
+.anony-time .wrapper .main .timelist li .title {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.38;
+}
+.anony-time .wrapper .main .timelist li .musiclm {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  margin-top: 10px;
+}

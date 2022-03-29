@@ -15,7 +15,6 @@
   float: right;
   width: 265px;
   margin-left: 30px;
-  height: 50px;
 }
 .section .wrapper .side .img-a {
   width: 100%;
@@ -63,9 +62,6 @@
 }
 .section .wrapper .side .online .mod .rec_topics:last-child {
   margin-bottom: 0;
-}
-.section .wrapper .main {
-  height: 50px;
 }
 .section .wrapper .main .mod {
   margin-bottom: 30px;
